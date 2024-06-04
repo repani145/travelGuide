@@ -1,0 +1,39 @@
+.mainDiv{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.div3{
+    
+}
+
+.div3 div{
+    
+}
+.cd1:hover,.cd2:hover,.cd3:hover{
+    scale: 105%;
+}
+
+.cd1{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/The_Charminar_on_a_cloudy_day.jpg/1280px-The_Charminar_on_a_cloudy_day.jpg');   
+}
+.cd2{
+    background-image: url('https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_600,q_auto,w_600//hotelier-images/51/ac/561f1fb369bf95c826564f8f54755ae967a5e87ef2228ac6ceebfa831aca.jpeg');
+
+}
+.cd3{
+    background-image: url('https://images.venuebookingz.com/32404-1701841679-wm-downing-6.jpg');
+}
+
+.cd1,.cd2,.cd3{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    font-size: 200%;
+    color:white;
+}

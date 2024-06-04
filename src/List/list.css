@@ -1,0 +1,21 @@
+
+
+.list{
+    display: grid;
+    overflow-y: auto;
+    height: 400px;
+    row-gap: 15px;
+    justify-content: center;
+    text-align: center;
+    /* display:"grid",overflow-x:'scroll',height:`400px` */
+}
+.loader{
+    text-align: center;
+}
+.cd1 img{
+    width: 96%;
+}
+.cd1{
+    /* border: 2px solid black; */
+    padding: 2%;
+}

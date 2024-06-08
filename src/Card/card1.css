@@ -1,0 +1,7 @@
+.carD{
+    height: 100vh;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Charminar_sumeet_photography_3.JPG/330px-Charminar_sumeet_photography_3.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

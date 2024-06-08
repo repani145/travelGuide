@@ -7,9 +7,9 @@ function MyNavbar() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="/">Navbar</Navbar.Brand>
+          <Navbar.Brand href="/">Home</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/places">Places</Nav.Link>
+            <Nav.Link href="/places">Attractions</Nav.Link>
             <Nav.Link href="/hotels">Hotels</Nav.Link>
             <Nav.Link href="/restaurents">Restaruents</Nav.Link>
           </Nav>
@@ -19,5 +19,7 @@ function MyNavbar() {
     </>
   );
 }
+
+
 
 export default MyNavbar;

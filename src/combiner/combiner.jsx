@@ -8,13 +8,13 @@ import useScreenWidth from "../screenSize/screensizE";
 
 export const TotalData=createContext()
 
-const Combiner=()=>{
+const Combiner=(ppp)=>{
     const screen_width = useScreenWidth()
     const [city,setCity]=useState(null)
     const [centre1,setCentre1]=useState(12.91285)
     const [centre2,setCentre2]=useState(100.87808)
     const [list,setList]=useState([])
-
+    const {cat}=ppp;
 
  const catchCenter = (lat,long)=>{
       setCentre1(lat)
@@ -31,7 +31,7 @@ const Combiner=()=>{
   const dataFetch= async ()=>{
     const options = {
       method: 'GET',
-      url: 'https://travel-advisor.p.rapidapi.com/restaurants/list-by-latlng',
+      url: `https://travel-advisor.p.rapidapi.com/${cat}/list-by-latlng`,
       //https://travel-advisor.p.rapidapi.com/hotels/list-by-latlng
       params: {
         latitude: centre1,
@@ -57,7 +57,7 @@ const Combiner=()=>{
 
     return(
         <>
-            <MyNavbar/>
+            {/* <MyNavbar/> */}
             <div className="parentForMapList">
               <TotalData.Provider value={{
                 catchCenter,list

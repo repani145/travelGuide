@@ -3,19 +3,32 @@
 .list{
     display: grid;
     overflow-y: auto;
-    height: 400px;
-    row-gap: 15px;
+    height: 100vh;
+    row-gap: 20px;
     justify-content: center;
     text-align: center;
+    padding-top: 30px;
+    /* width: 99%; */
+    /* width: 100%; */
     /* display:"grid",overflow-x:'scroll',height:`400px` */
 }
 .loader{
     text-align: center;
 }
 .cd1 img{
-    width: 96%;
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+}
+.cd1:hover{
+    scale: 103%;
+    transition-duration: 1s;
 }
 .cd1{
     /* border: 2px solid black; */
-    padding: 2%;
+    /* padding: 2%; */
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 5px black;
+    border-radius: 15px;
+    padding: 10px;
 }

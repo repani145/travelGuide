@@ -1,11 +1,12 @@
+import Combiner from "../combiner/combiner";
+import Footer from "../footer/footer";
 import MyNavbar from "../navBar/navv";
 
 const Places = ()=>{
     return(
         <>  <MyNavbar/>
-            <div style={{height:'500px',display:'flex',flexFlow:'row',justifyContent:'center',alignContent:'center'}}>
-                <h1>I am under constuction</h1>
-            </div>
+            <Combiner cat={'attractions'}/>
+            <Footer/>
         </>
     )
 }

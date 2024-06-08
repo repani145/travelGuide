@@ -1,19 +1,18 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import './navForLand.css'
-import { Link } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import './card1.css'
+import Curo11 from './curosel';
 
-function NavForLander() {
+function Card11() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <div className='carD'>
+        <Navbar expand="lg" className="bg-body">
       <Container>
-        <Navbar.Brand href="#home">
-          <Link to={'/'} style={{textDecoration:'none',color:'black'}}><h4>TravelGuider</h4></Link>
-        </Navbar.Brand>
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        {/* <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
@@ -29,10 +28,12 @@ function NavForLander() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-        </Navbar.Collapse> */}
+        </Navbar.Collapse>
       </Container>
     </Navbar>
+        <Curo11/>
+    </div>
   );
 }
 
-export default NavForLander;
+export default Card11;

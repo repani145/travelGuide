@@ -3,13 +3,15 @@ import Footer from "../footer/footer";
 import MyNavbar from "../navBar/navv";
 
 
-const Hotels = ()=>{
+
+const Restaurent = ()=>{
     return(
-        <>  <MyNavbar/>
-            <Combiner cat={'hotels'}/>
+        <>
+            <MyNavbar/>
+            <Combiner cat={'restaurants'}/>
             <Footer/>
         </>
     )
 }
 
-export default Hotels;
+export default Restaurent;
